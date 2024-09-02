@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcommerceV2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">--Home--</a></li>
+                <li><a href="indexsobre.html">--Sobre--</a></li>
+                <li><a href="indexcontact.html">--Contato--</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h2>Produtos em destaque</h2>
+            <div class="carrossel">
+                <button class="prev">&#10094;</button>
+                <div class="carrossel-items"></div>
+                <button class="next">&#10095;</button>
+            </div>
+        </section>
+         <section class="cart">
+            <h2>Carrinho de compras</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <p>Total: <span id="total">R$0.00</span></p>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; DanteWuz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
